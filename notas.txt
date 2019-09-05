@@ -1,0 +1,10 @@
+
+
+npm run start:dev
+
+
+Usuarios Afiliación
+
+"password":"123Afiliacion."
+"firstSession" : 0
+"welcomeVideoWatched" : 0
