@@ -2,7 +2,9 @@
 const authModel = require('../models/authModel.js');
 
 const authController = {
-	loginFunc: authModel.loginFunc
+	login: authModel.loginFunc,
+	createUser: authModel.loginFunc,
+	archiveUser: authModel.loginFunc
 }
 
 

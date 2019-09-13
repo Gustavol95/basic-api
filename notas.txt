@@ -8,3 +8,28 @@ Usuarios Afiliación
 "password":"123Afiliacion."
 "firstSession" : 0
 "welcomeVideoWatched" : 0
+
+
+
+
+
+Routing Express
+
+
+Inicio de Sesion                    POST    auth/login
+Crear usuario                       POST    auth/user
+Archivar usuario                    PUT     auth/user
+
+
+JWT Middleware
+
+
+Listado de Clientes                 GET     api/business
+Crear Clientes                      POST    api/business
+Archivar Cliente                    PUT     api/business/{id}
+Listado de paquetes por cliente     GET     api/business/{id}/packages
+Crear paquete de Folios             POST    api/business/{id}/packages
+Listado de Folios por Paquete       GET     api/business/{id}/packages/{id}
+Archivar paquete de Folios          PUT     api/business/{id}/packages/{id}
+
+
